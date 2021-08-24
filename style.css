@@ -19,16 +19,7 @@ body {
   height: 100%;
 }
 
-.emoji {
-  font-size: 10vw;
-  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px 2px 0 #fff, 0px 2px 0 #fff, 2px 0px 0 #fff, -2px 0px 0 #fff,
-    0px -2px 0 #fff;
-}
-.title {
-  font-size: 6vw;
-  background-color: white;
-  padding: 0.1em 0.3em;
-  border-radius: 0.6em;
-  font-weight: 600;
+img.emoji {
+  width: 70vw;
+  max-width: 70vh;
 }
