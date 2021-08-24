@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(#a00, transparent),
+    linear-gradient(to top left, #0a0, transparent),
+    linear-gradient(to top right, #00a, transparent);
+  background-blend-mode: screen;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Objective, Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.emoji {
+  font-size: 10vw;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px 2px 0 #fff, 0px 2px 0 #fff, 2px 0px 0 #fff, -2px 0px 0 #fff,
+    0px -2px 0 #fff;
+}
+.title {
+  font-size: 6vw;
+  background-color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 0.6em;
+  font-weight: 600;
+}
