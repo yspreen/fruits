@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e15a1fdba153b2ff9be61173571b894a.js"
+  "/precache-manifest.901956001f687847a5063a65b332e0e1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fruits-web"});
